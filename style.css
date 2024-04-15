@@ -23,7 +23,7 @@ body {
 }
 
 .main:hover {
-    box-shadow: 1rem 1rem black;
+  box-shadow: 1rem 1rem black;
 }
 
 #thumb {
@@ -38,11 +38,16 @@ p {
 }
 
 h1 {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 h1:hover {
-    color: hsl(47, 88%, 63%);
+  color: hsl(47, 88%, 63%);
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
 }
 
 .date {
