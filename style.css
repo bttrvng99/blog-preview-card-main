@@ -23,7 +23,8 @@ body {
 }
 
 .main:hover {
-  box-shadow: 1rem 1rem black;
+  box-shadow: 0.75rem 0.75rem black;
+  transition: box-shadow 0.1s ease-in-out;
 }
 
 #thumb {
@@ -43,6 +44,7 @@ h1 {
 
 h1:hover {
   color: hsl(47, 88%, 63%);
+  transition: color 0.1s ease-in-out;
 }
 
 a {
