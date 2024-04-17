@@ -13,18 +13,19 @@ body {
   font-family: "Figtree", sans-serif;
 }
 
-.main {
+main {
   background-color: white;
   padding: 1rem;
   border-radius: 1rem;
   border: 2px solid black;
   width: 20rem;
   box-shadow: 0.5rem 0.5rem black;
+  
+  transition: box-shadow 0.1s ease-in-out;
 }
 
-.main:hover {
+main:hover {
   box-shadow: 0.75rem 0.75rem black;
-  transition: box-shadow 0.1s ease-in-out;
 }
 
 #thumb {
@@ -39,12 +40,16 @@ p {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 25px;
+  transition: color 0.1s ease-in-out;
 }
 
-h1:hover {
+h2 {
+  font-size: 20px;
+}
+
+main:hover h1 {
   color: hsl(47, 88%, 63%);
-  transition: color 0.1s ease-in-out;
 }
 
 a {
